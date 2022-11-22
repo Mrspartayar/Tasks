@@ -11,10 +11,9 @@ public class Main {
 }
 class Kata {
     public static String numberToString(int num) {
-        num = 3;
-        String str = Integer.toString(num);
-        return str;
-        // Return a string of the number here!
+        return String.valueOf(num);
+//        return Integer.toString(num);
+//        return ""+num;
     }
 }
 
