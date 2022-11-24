@@ -4,13 +4,19 @@ public class Main {
     public static void main(String[] args) {
 
         int[] arr;
-        arr = new int[3];
+        arr = new int[5];
 
         arr[0]=3;
         arr[1]=5;
-        arr[2]=-4;
+        arr[2]=1;
+        arr[3]=10;
+        arr[4]=-5;
 
-        System.out.println(SumOfPositive.sum(arr));
+        int[] arr2;
+        arr2 = new int[1];
+        arr2[0]=4;
+
+        System.out.println(SumWithoutHighestAndLowestNumber.sum(arr2));
 
     }
 

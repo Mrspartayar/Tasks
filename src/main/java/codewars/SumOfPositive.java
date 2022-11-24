@@ -10,7 +10,7 @@ public class SumOfPositive {
 //                result += arr[i];
 //            }
 //        }
-        return result;
+//        return result;
         int result = 0;
         for (int i : arr) {
             if (i > 0) {
